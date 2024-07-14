@@ -9,6 +9,7 @@
 #include "includes.h"
 #include "myiic.h"
 #include "24cxx.h"
+#include "stm32h743xx.h"
 /************************************************
 要实现的功能：
 1.分别实现用IIC和QSPI对EEROM和FLASH的读写
@@ -190,34 +191,38 @@ void led_task(void *pdata)
 
 void key_task(void *pdata)
 {
-//	while(1)
-//	{
-//		u8 KEY_STAT;
-//		KEY_STAT=KEY_Scan(0);
-//		if(KEY_STAT)
-//		{
-//			printf("key_status=%u8\n",KEY_STAT);
-//			switch(KEY_STAT)
-//			{
-//				case KEY0_PRES:
-//					OSTaskSuspend(SR_TASK_PRIO);
-//					OSTaskSuspend(SS_TASK_PRIO);
-//					OSTaskResume(RECEIVE_TASK_PRIO);
-//					OSTaskResume(SEND_TASK_PRIO);
-//				case KEY1_PRES:
-//					OSTaskSuspend(RECEIVE_TASK_PRIO);
-//					OSTaskSuspend(SEND_TASK_PRIO);
-//					OSTaskResume(SR_TASK_PRIO);
-//					OSTaskResume(SS_TASK_PRIO);
-//				case KEY2_PRES:
-//					delay_ms(10);
-//				case WKUP_PRES:
-//					delay_ms(10);
-//			}
-//		}
-//		else delay_ms(50);
-//	}
-	OSTaskResume(RECEIVE_TASK_PRIO);
+	u8 KEY_STAT;
+	while(1)
+	{
+		KEY_STAT=KEY_Scan(0);
+		if(KEY_STAT)
+		{
+			printf("key_status=%u8\n",KEY_STAT);
+			switch(KEY_STAT)
+			{
+				case KEY0_PRES:
+					OSTaskSuspend(SR_TASK_PRIO);
+					OSTaskSuspend(SS_TASK_PRIO);
+					OSTaskResume(RECEIVE_TASK_PRIO);
+					break;
+				case KEY1_PRES:
+					OSTaskSuspend(RECEIVE_TASK_PRIO);
+					OSTaskSuspend(SEND_TASK_PRIO);
+					OSTaskResume(SR_TASK_PRIO);
+					break;
+				case KEY2_PRES:
+					delay_ms(10);
+					break;
+				case WKUP_PRES:
+					delay_ms(10);
+					break;
+				default:
+					delay_ms(10);
+					break;
+			}
+		}
+		else delay_ms(50);
+	}
 }
 
 
