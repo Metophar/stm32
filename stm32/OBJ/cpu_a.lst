@@ -459,10 +459,10 @@ Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M7.fp.dp --apcs=
 ARM Macro Assembler    Page 8 
 
 
-interwork --depend=..\obj\cpu_a.d -o..\obj\cpu_a.o -ID:\STM32\MDK5\Packs\Keil\S
-TM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include --predefine="__UVI
-SION_VERSION SETA 534" --predefine="STM32H743xx SETA 1" --list=..\obj\cpu_a.lst
- ..\UCOSII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm
+interwork --depend=..\obj\cpu_a.d -o..\obj\cpu_a.o -IC:\workspace\MDK5\Packs\Ke
+il\STM32H7xx_DFP\3.1.1\Drivers\CMSIS\Device\ST\STM32H7xx\Include --predefine="_
+_UVISION_VERSION SETA 534" --predefine="STM32H743xx SETA 1" --list=..\obj\cpu_a
+.lst ..\UCOSII\uC-CPU\ARM-Cortex-M4\RealView\cpu_a.asm
 
 
 

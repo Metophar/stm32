@@ -4,7 +4,7 @@
 ..\obj\ott2001a.o: ..\USER\stm32h7xx.h
 ..\obj\ott2001a.o: ..\USER\stm32h743xx.h
 ..\obj\ott2001a.o: ..\CORE\core_cm7.h
-..\obj\ott2001a.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\ott2001a.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\ott2001a.o: ..\CORE\cmsis_compiler.h
 ..\obj\ott2001a.o: ..\CORE\cmsis_armcc.h
 ..\obj\ott2001a.o: ..\USER\system_stm32h7xx.h
@@ -14,7 +14,7 @@
 ..\obj\ott2001a.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\obj\ott2001a.o: ..\USER\stm32h7xx.h
 ..\obj\ott2001a.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\obj\ott2001a.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\ott2001a.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\ott2001a.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\obj\ott2001a.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\obj\ott2001a.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

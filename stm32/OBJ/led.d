@@ -4,7 +4,7 @@
 ..\obj\led.o: ..\USER\stm32h7xx.h
 ..\obj\led.o: ..\USER\stm32h743xx.h
 ..\obj\led.o: ..\CORE\core_cm7.h
-..\obj\led.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\led.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\led.o: ..\CORE\cmsis_compiler.h
 ..\obj\led.o: ..\CORE\cmsis_armcc.h
 ..\obj\led.o: ..\USER\system_stm32h7xx.h
@@ -14,7 +14,7 @@
 ..\obj\led.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\obj\led.o: ..\USER\stm32h7xx.h
 ..\obj\led.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\obj\led.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\led.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\led.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\obj\led.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\obj\led.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

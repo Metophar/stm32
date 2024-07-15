@@ -4,7 +4,7 @@
 ..\obj\pcf8574.o: ..\USER\stm32h7xx.h
 ..\obj\pcf8574.o: ..\USER\stm32h743xx.h
 ..\obj\pcf8574.o: ..\CORE\core_cm7.h
-..\obj\pcf8574.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\pcf8574.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\pcf8574.o: ..\CORE\cmsis_compiler.h
 ..\obj\pcf8574.o: ..\CORE\cmsis_armcc.h
 ..\obj\pcf8574.o: ..\USER\system_stm32h7xx.h
@@ -14,7 +14,7 @@
 ..\obj\pcf8574.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\obj\pcf8574.o: ..\USER\stm32h7xx.h
 ..\obj\pcf8574.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\obj\pcf8574.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\pcf8574.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\pcf8574.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\obj\pcf8574.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\obj\pcf8574.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

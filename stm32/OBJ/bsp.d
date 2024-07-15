@@ -14,7 +14,7 @@
 ..\obj\bsp.o: ..\USER\stm32h7xx.h
 ..\obj\bsp.o: ..\USER\stm32h743xx.h
 ..\obj\bsp.o: ..\CORE\core_cm7.h
-..\obj\bsp.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\bsp.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\bsp.o: ..\CORE\cmsis_compiler.h
 ..\obj\bsp.o: ..\CORE\cmsis_armcc.h
 ..\obj\bsp.o: ..\USER\system_stm32h7xx.h
@@ -24,7 +24,7 @@
 ..\obj\bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\obj\bsp.o: ..\USER\stm32h7xx.h
 ..\obj\bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\obj\bsp.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\bsp.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\obj\bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\obj\bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

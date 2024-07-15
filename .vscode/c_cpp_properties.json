@@ -1,20 +1,20 @@
 {
-  "configurations": [
-    {
-      "name": "windows-gcc-x86",
-      "includePath": [
-        "${workspaceFolder}/**",
-        "E:/DSTM32/workspace/stm32/Communication&UCOS/SYSTEM/sys",
-        "D:/STM32/MDK5/Packs/ARM/CMSIS/5.7.0/CMSIS/**"
-      ],
-      "compilerPath": "C:/MinGW/bin/gcc.exe",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x86",
-      "compilerArgs": [
-        ""
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "windows-gcc-x86",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/workspace/stm32-1/stm32/SYSTEM/sys",
+                "C:/workspace/MDK5/Packs/ARM/CMSIS/5.7.0/CMSIS/**"
+            ],
+            "compilerPath": "C:/MinGW/mingw64-13.2.0/bin/gcc.exe",
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
 }

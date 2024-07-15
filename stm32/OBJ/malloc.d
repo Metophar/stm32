@@ -4,7 +4,7 @@
 ..\obj\malloc.o: ..\USER\stm32h7xx.h
 ..\obj\malloc.o: ..\USER\stm32h743xx.h
 ..\obj\malloc.o: ..\CORE\core_cm7.h
-..\obj\malloc.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\malloc.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\malloc.o: ..\CORE\cmsis_compiler.h
 ..\obj\malloc.o: ..\CORE\cmsis_armcc.h
 ..\obj\malloc.o: ..\USER\system_stm32h7xx.h
@@ -14,7 +14,7 @@
 ..\obj\malloc.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_def.h
 ..\obj\malloc.o: ..\USER\stm32h7xx.h
 ..\obj\malloc.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\obj\malloc.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\malloc.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\malloc.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\obj\malloc.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\obj\malloc.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

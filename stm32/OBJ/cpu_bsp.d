@@ -21,13 +21,13 @@
 ..\obj\cpu_bsp.o: ..\USER\stm32h7xx.h
 ..\obj\cpu_bsp.o: ..\USER\stm32h743xx.h
 ..\obj\cpu_bsp.o: ..\CORE\core_cm7.h
-..\obj\cpu_bsp.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\cpu_bsp.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\cpu_bsp.o: ..\CORE\cmsis_compiler.h
 ..\obj\cpu_bsp.o: ..\CORE\cmsis_armcc.h
 ..\obj\cpu_bsp.o: ..\USER\system_stm32h7xx.h
 ..\obj\cpu_bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal.h
 ..\obj\cpu_bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-..\obj\cpu_bsp.o: D:\STM32\MDK5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\cpu_bsp.o: C:\workspace\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\obj\cpu_bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_rcc_ex.h
 ..\obj\cpu_bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio.h
 ..\obj\cpu_bsp.o: ..\HALLIB\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_gpio_ex.h

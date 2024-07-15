@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/DSTM32/资料/4，程序源码/4，程序源码/2，标准例程-HAL库版本/2，标准例程-HAL库版本/实验64 UCOSII实验3-消息队列、信号量和软件定时器/USER",
-      "program": "e:/DSTM32/资料/4，程序源码/4，程序源码/2，标准例程-HAL库版本/2，标准例程-HAL库版本/实验64 UCOSII实验3-消息队列、信号量和软件定时器/USER/build/Debug/outDebug",
+      "cwd": "c:/workspace/stm32-1/stm32/USER",
+      "program": "c:/workspace/stm32-1/stm32/USER/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

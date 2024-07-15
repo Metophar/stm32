@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER, STM32H743xx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HALLIB\STM32H7xx_HAL_Driver\Inc;..\HARDWARE\LED;..\HARDWARE\IIC;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\MPU;..\HARDWARE\PCF8574;..\HARDWARE\SDRAM;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\TPAD;..\UCOSII\uC-CPU;..\UCOSII\uC-LIB;..\UCOSII\UCOS_BSP;..\UCOSII\uCOS-CONFIG;..\UCOSII\uCOS-II\Source;..\UCOSII\uC-CPU\ARM-Cortex-M4\RealView;..\UCOSII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\UCOSII\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView;..\MALLOC</IncludePath>
+              <IncludePath>..\CORE;..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\HALLIB\STM32H7xx_HAL_Driver\Inc;..\HARDWARE\LED;..\HARDWARE\IIC;..\HARDWARE\KEY;..\HARDWARE\LCD;..\HARDWARE\MPU;..\HARDWARE\PCF8574;..\HARDWARE\SDRAM;..\HARDWARE\TOUCH;..\HARDWARE\24CXX;..\HARDWARE\TPAD;..\UCOSII\uC-CPU;..\UCOSII\uC-LIB;..\UCOSII\UCOS_BSP;..\UCOSII\uCOS-CONFIG;..\UCOSII\uCOS-II\Source;..\UCOSII\uC-CPU\ARM-Cortex-M4\RealView;..\UCOSII\uC-LIB\Ports\ARM-Cortex-M4\RealView;..\UCOSII\uCOS-II\Ports\ARM-Cortex-M4\Generic\RealView;..\MALLOC;..\HARDWARE\W25QXX;..\HARDWARE\QSPI;..\HARDWARE\RS485;..\HARDWARE\FDCAN</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -548,6 +548,16 @@
               <FileType>1</FileType>
               <FilePath>..\HALLIB\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim_ex.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32h7xx_hal_qspi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HALLIB\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32h7xx_hal_fdcan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HALLIB\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_fdcan.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -632,6 +642,26 @@
               <FileName>gt9271.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\TOUCH\gt9271.c</FilePath>
+            </File>
+            <File>
+              <FileName>w25qxx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\W25QXX\w25qxx.c</FilePath>
+            </File>
+            <File>
+              <FileName>qspi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\QSPI\qspi.c</FilePath>
+            </File>
+            <File>
+              <FileName>rs485.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\RS485\rs485.c</FilePath>
+            </File>
+            <File>
+              <FileName>fdcan.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\FDCAN\fdcan.c</FilePath>
             </File>
           </Files>
         </Group>
