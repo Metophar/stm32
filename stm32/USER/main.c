@@ -290,6 +290,7 @@ void receive_task(void *pdata)
 
 void sr_task(void *pdata)
 {
+	
 }
 
 void ss_task(void *pdata)
